@@ -33,19 +33,27 @@
 .box3{
     /*justify-self:end;*/
     grid-column:2/4;
-    grid-row:3;
-    background-image: url("../images/caricature-scientist-albert-einstein-w.png");
+    grid-row:2/4;
+    /* background-image: url("../images/cbv.png"); */
+    background: darkcyan;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 150px;
+    align-content: center;
 }
 
 .box4{
     grid-column:1;
     grid-row:2/4;
     border:1px solid #333;
-    background-image: url("../images/einstein759.png");
+    background-image: url("../images/fg.png");
+    background: steelblue;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -58,6 +66,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    grid-template-columns: 70%;
   }
   h1 {
     font: font-family: 'PT Sans', sans-serif;
