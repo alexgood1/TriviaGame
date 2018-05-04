@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-    crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="assets/css/style.css">    
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
 </head>
+
 <body>
+    <div class="wrapper">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4">
-                <button id="start" class="btn-md-outline">Start</button>
+        <div class="row" id="gameArea">
+            <div class="trivia-display col-md-6">
+                <h1 id="title">The Genius Quiz</h1>
+                <div id="subwrapper" class="questions">
+                    <h3 class="game-info">Take Quiz
+                        <br>You have 90 seconds to answer all questions before timer runs out.
+                        <br>If you finish before time's up, click Score to get your results.
+                        <br>
+                    </h3>
+                    <button class="start-btn" id="start" type="button" name="button">Start</button>
+                </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="assets/javascript/trivia.js"></script> 
+
+    <!-- <div class="container">
+        <div>
+            <ol>
+                <li>
+                
+                </li>
+            </ol>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
