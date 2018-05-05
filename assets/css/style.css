@@ -1,7 +1,8 @@
 .wrapper{
     display:grid;
-    grid-template-columns:1fr 2fr 1fr;
-    grid-auto-rows:minmax(100px, auto);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 100%;
+    grid-auto-rows: minmax(100px, auto);
     grid-gap:1em;
     justify-items:stretch;
     align-items:stretch;
@@ -13,10 +14,8 @@
 }
 
 .box1{
-    /*align-self:start;*/
     grid-column:1/3;
     grid-row:1/3;
-    background-image: url("..images/caricature-scientist-albert-einstein-w.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,10 +23,8 @@
 }    
 
 .box2{
-    /*align-self:end;*/
     grid-column:3;
     grid-row:1/3;
-    background-image: url("../images/en.jpeg");
 }
 
 .box3{
@@ -35,65 +32,74 @@
     grid-column:2/4;
     grid-row:2/4;
     /* background-image: url("../images/cbv.png"); */
-    background: darkcyan;
+    /* background: darkcyan; */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 150px;
     align-content: center;
+    grid-gap: 1em;
 }
 
 .box4{
-    grid-column:1;
+    grid-column:2/4;
     grid-row:2/4;
-    border:1px solid #333;
-    background-image: url("../images/fg.png");
-    background: steelblue;
+    border:2px solid #333;
+    background-image: url("ovr.png")
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    grid-gap: 1em;
 }
 
-.container {
-    /* grid-area: span; */
+#gameArea {
+    display: block;
+}
 
+#qContainer {
+    color: lightseagreen;
 }
 
 .trivia-display {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     grid-template-columns: 70%;
   }
   h1 {
-    font: font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 4em;
     color: white;
     text-decoration: underline;
     font-family: serif;
     text-shadow: 2px 2px 5px black;
-    animation: titleColor 7s infinite;
   }
-  h3.game-info {
+  h3 {
     color: #dddddd;
-    font-family: ;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 1.5px;
     line-height: 40px;
-    font: font-family: 'Merriweather', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 2px 2px 5px black;
   }
+
+  label-for-check {
+      color: lightseagreen;
+  }
+
   .questions {
     color: white;
     text-align: center;
     font-size: 1.2em;
   }
   .start-btn {
-    background-color: #dddddd;
+    background-color: #486eea;
     font-size: 2em;
     padding: 5px 5px;
-    color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
     width: 250px;
     height: 70px;
     margin-top: 100px;
@@ -103,35 +109,21 @@
     border: 2px solid #bababa;
   }
   .done-btn {
-    background-color: #898989da;
+    background-color: #486eea;
     font-size: 2em;
     padding: 5px 5px;
-    color: rgb(138, 172, 251);
+    color: rgb(255, 255, 255);
     width: 250px;
     height: 70px;
     margin-top: 20px;
     margin-bottom: 40px;
-    text-shadow: 0px 2px 4px black;
+    /* text-shadow: 0px 2px 4px black; */
     border-radius: 5px;
     border: 2px solid #bababa;
   }
   
-  
-  /* .check-with-label:checked + .label-for-check {
-    animation: titleColor 7s infinite;
-    box-shadow:0 0 5px 0px orange inset;
-  }
-  @keyframes titleColor {
-  5%   {color: red;}
-  15%  {color: orange;}
-  25%  {color: yellow;}
-  35%  {color: green;}
-  50%  {color: blue;}
-  75%  {color: #d442f4;}
-  90%  {color: #f44186;}
-  } */
   button:hover {
-    background-color: #bababa;
+    background-color: #c9e4ff;
   }
   .all-done {
     margin-bottom: 230px;
