@@ -1,5 +1,6 @@
-# TriviaGame
+# Trivia Game
 Trivia Game with multiple choice created with JavaScript using jQuery. 
+
 technologies used: html, css, booststrap. vsc, javascript, jQuery
 
 # Einstein Trivia
@@ -7,26 +8,18 @@ An automatic countdown function sets a timer when player clicks on "start game" 
 
 
 ## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Visual Studio Code Editor
 
 ## Versioning
-
-For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+V1
 
 ## Authors
 
-* **Alexandra Goodwin** - *Initial work* - [GitHub](https://alexgood1.github.io/Basic-Portfolio/)
+Alexandra Goodwin
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to J
-* Inspiration
-* etc
 
