@@ -1,4 +1,7 @@
 # Trivia Game
+
+https://alexgood1.github.io/TriviaGame/
+
 Trivia Game with multiple choice created with JavaScript using jQuery. 
 
 technologies used: html, css, booststrap. vsc, javascript, jQuery
